@@ -8,6 +8,8 @@ const passportSetup = require('./config/passport');
 
 const app = express();
 
+
+
 // set handlebars as view engine
 app.engine('hbs', hbs({ extname: 'hbs', layoutsDir: './layouts', defaultLayout: 'main' }));
 app.set('view engine', '.hbs');

@@ -128,6 +128,14 @@ button {
   height: 100%;
 }
 
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
 .loginBtn:focus {
   outline: none;
 }
